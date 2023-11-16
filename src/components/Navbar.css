@@ -1,0 +1,51 @@
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0.8%;
+    margin-bottom: 0.8%;
+}
+.start{
+    margin-left: 16%;
+}
+.end{
+    width: 250px;
+    margin-right: 16%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.end h3{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 23px;
+    font-family: Neue Montreal;
+    font-weight: 250;
+
+}
+@media only screen and (min-width: 800px){
+    .end{
+        width: 350px;
+    }
+}
+
+.name{
+    margin: 0px; 
+    font-size: 32px;
+    font-family: Migra;
+    font-weight: 650;
+}
+.icon{
+    width: auto;
+    height: 30px;
+    border-radius: 50%;
+}
+.navseparator{
+    width: 75%; border: 1px #DDF2FD solid; margin: auto;
+}
+
+.end a{
+    text-decoration: none;
+    color: #DDF2FD;
+}

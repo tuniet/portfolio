@@ -1,0 +1,19 @@
+.Home{
+    height: 100vh;
+    background-image: url(../media/Images/ibiza.jpg);
+    color: #DDF2FD;
+    position: relative;
+}
+.Home .intro{
+    position: absolute;
+    bottom: 35%;
+    left: 15%;
+    text-align: left;
+    color: #DDF2FD
+}
+.arrowsdown{
+    position: absolute;
+    width: 5vh;
+    bottom: 1%;
+    left: auto;
+}
