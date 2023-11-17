@@ -1,5 +1,9 @@
 .App {
   text-align: center;
   background-color: white;
+  font-family: Neue Montreal;
+}
+html{
+  scroll-behavior: smooth;
 }
 

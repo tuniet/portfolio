@@ -9,11 +9,12 @@
     bottom: 35%;
     left: 15%;
     text-align: left;
-    color: #DDF2FD
+    color: #DDF2FD;
+    font-weight: 250;
 }
 .arrowsdown{
     position: absolute;
-    width: 5vh;
+    width: 2.7vw;
     bottom: 1%;
-    left: auto;
+    left: 48vw;
 }
