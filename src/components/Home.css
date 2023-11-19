@@ -7,15 +7,20 @@
         position: absolute;
         bottom: 35%;
         left: 15%;
-        text-align: left;
-        color: #DDF2FD;
-        font-weight: 250;
     }
     .arrowsdown{
         position: absolute;
         width: 40px;
         bottom: 1%;
         left: 48vw;
+    }
+    .socials-home{
+        display: flex;
+    }
+    .intro .title{
+        text-align: left;
+        color: #DDF2FD;
+        font-weight: 250;
     }
     
 }

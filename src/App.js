@@ -4,8 +4,9 @@ import './styles/animations.css';
 import Home from './components/Home.jsx';
 import Work from './components/Work.jsx';
 import AboutMe from './components/AboutMe.jsx';
-import Footer from './components/Footer.jsx';
 import closeIcon from './media/icons/x-lg.svg';
+import mail from './media/icons/mail.svg'
+import copy from './media/icons/copy.svg'
 
 function App() {
 
@@ -45,12 +46,12 @@ function App() {
       <Home />
       <AboutMe />
       <Work />
-      <Footer />
       <span className={`contact-button ${scrolltopdata}`} onClick={handleOpen}>Get in touch</span>
       <div className={`contact-modal ${modalactive}`}>
         <span className='modal-close-button' onClick={handleClose}><img src={closeIcon} alt=''/></span>
         <h2 className='modal-title'>Get in touch</h2>
         <p className='modal-txt'>If you'd like to collaborate or have anything to say, please fill out the form below with as much details as possible and I'll be in touch!</p>
+        <a className="icon" href='mailto:tofeju@gmail.com'><img src = {mail} alt="mail svg"/> tofeju@gmail.com</a>
         <div class="form">
           <form action='#form-processor.php' class="contact-form" method="POST">
             <div class="form-name-email">
@@ -62,7 +63,8 @@ function App() {
           </form>
         </div>
       </div>
-      <div className={`overlay-bg ${modalactive}`}></div>    
+      <div className='footer'><img src={copy} alt=''/> 2023</div>
+      <div className={`overlay-bg ${modalactive}`}></div>
     </div>
   );
 }

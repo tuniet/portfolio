@@ -40,3 +40,27 @@
     width: 100%; border: 1px #DDF2FD solid; margin: auto;
 }
 
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: #DDF2FD;
+  }
+  
+  .hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: -6%;
+    left: 0;
+    background-color: #DDF2FD;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
