@@ -41,13 +41,7 @@
     to { transform: rotate(720deg); }
   }
   
-  .pulse {
-    animation: pulse 1.5s infinite ease-in-out alternate;
-  }
-  @keyframes pulse {
-    from { transform: scale(0.9); }
-    to { transform: scale(1.1); }
-  }
+
   
   .flash {
     animation: flash 500ms ease infinite alternate;

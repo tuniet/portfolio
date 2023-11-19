@@ -1,5 +1,6 @@
 import './AboutMe.css';
 import madrid from '../media/Images/madrid.jpg'
+
 function AboutMe() {
   return (
     <div id='aboutme' className="aboutme">

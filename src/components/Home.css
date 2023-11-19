@@ -1,20 +1,28 @@
-.Home{
+.home{
     height: 100vh;
     background-image: url(../media/Images/ibiza.jpg);
     color: #DDF2FD;
     position: relative;
+    .intro{
+        position: absolute;
+        bottom: 35%;
+        left: 15%;
+        text-align: left;
+        color: #DDF2FD;
+        font-weight: 250;
+    }
+    .arrowsdown{
+        position: absolute;
+        width: 40px;
+        bottom: 1%;
+        left: 48vw;
+    }
+    
 }
-.Home .intro{
-    position: absolute;
-    bottom: 35%;
-    left: 15%;
-    text-align: left;
-    color: #DDF2FD;
-    font-weight: 250;
+.pulse {
+    animation: pulse 1.5s infinite ease-in-out alternate;
 }
-.arrowsdown{
-    position: absolute;
-    width: 2.7vw;
-    bottom: 1%;
-    left: 48vw;
+  @keyframes pulse {
+    from { transform: scale(0.9); }
+    to { transform: scale(1.1); }
 }
