@@ -16,6 +16,8 @@
     }
     .socials-home{
         display: flex;
+        align-items: center;
+        gap: 15px;
     }
     .intro .title{
         text-align: left;
@@ -30,4 +32,7 @@
   @keyframes pulse {
     from { transform: scale(0.9); }
     to { transform: scale(1.1); }
+}
+.home-icon img{
+    vertical-align: middle;
 }

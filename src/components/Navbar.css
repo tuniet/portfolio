@@ -11,10 +11,11 @@
     justify-content: space-between;
     padding-bottom: 0.8%;
 }
-.navbar a{
+.navbar-a{
     text-decoration: none;
     color: #DDF2FD;
     font-size: 23px;
+    cursor: pointer;
 }
 
 .end{

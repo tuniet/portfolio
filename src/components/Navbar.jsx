@@ -1,5 +1,10 @@
 import './Navbar.css';
-function Navbar() {
+const Navbar = props => {
+
+  function handleClick() {
+    props.setinmodal(true);
+  }
+
   return (
     <div className='navbar'>
     <div class="flex">
@@ -7,9 +12,9 @@ function Navbar() {
         <h1 className="name">Toni Fdez</h1>
       </div>
       <div className="end">
-        <a href='#aboutme' className='hover-underline-animation'>about me</a>
-        <a href='#work' className='hover-underline-animation'>work</a>
-        <a href='#footer' className='hover-underline-animation'>contact</a>
+        <a href='#aboutme' className='navbar-a hover-underline-animation'>about me</a>
+        <a href='#work' className='navbar-a hover-underline-animation'>work</a>
+        <span className='navbar-a hover-underline-animation' onClick={handleClick}>contact</span>
       </div>
     </div>
       <div className="navseparator"></div>
