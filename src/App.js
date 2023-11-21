@@ -24,7 +24,7 @@ function App() {
   return (
     <div className='App'>
       <Home setinmodal = {setinmodal}/>
-      <AboutMe />
+      <AboutMe setinmodal = {setinmodal}/>
       <Work />
       <Footer />
       <Fixed  active={modalactive} inmodal = {inmodal} setinmodal = {setinmodal}/>

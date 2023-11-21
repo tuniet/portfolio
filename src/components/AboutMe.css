@@ -39,3 +39,8 @@
     height: 95%;
     object-fit: cover;
 }
+
+.toContact{
+    font-weight: 600;
+    cursor: pointer;
+}
