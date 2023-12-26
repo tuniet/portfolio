@@ -9,7 +9,7 @@
     transition: all .3s ease;
     z-index: -10;
     position: fixed;
-    background-color: #fff;
+    background-color: #164863;
     bottom: 20px;
     left: 50%;
     opacity: 0;
@@ -17,7 +17,7 @@
   }
   
   .contact-button:hover{
-    background-color: #f5f5f5;
+    background-color: #0d2a3a;
     border-color: #e5e5e5;
   }
   .scrolled{
