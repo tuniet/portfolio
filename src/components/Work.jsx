@@ -29,8 +29,8 @@ function Work() {
     <div id='work' className='work'>
       <h1 className='title'>Selected Work</h1>
         <div className='grid'>
-          <Card url='https://www.tonifdez.com' img={clothing} pos='first' name='Meraki' cardIcons = {<CardIcons icons={[css, html]}/>}/>
-          <Card url='https://www.tonifdez.com' img={jewelry} pos='second' name='Jewelry' cardIcons = {<CardIcons icons={[html]}/>}/>
+          <Card url='https://tuniet.github.io/meraki' img={clothing} pos='first' name='Meraki' cardIcons = {<CardIcons icons={[css, html]}/>}/>
+          <Card url='https://tuniet.github-io/nobelnest' img={jewelry} pos='second' name='Jewelry' cardIcons = {<CardIcons icons={[html]}/>}/>
           <Card url='https://www.tonifdez.com' img={architecture} pos='third' name='Architecture' cardIcons = {<CardIcons icons={[react]}/>}/>
           <Card url='https://www.tonifdez.com' img={other} pos='fourth' name='Allonda' cardIcons = {<CardIcons icons={[js]}/>}/>
         </div>
