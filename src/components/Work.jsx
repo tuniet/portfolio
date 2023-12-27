@@ -11,7 +11,7 @@ import react from '../media/icons/react.svg'
 
 const Card = props =>{
   return(
-    <a href={props.url} className={`card ${props.pos}`}><img className='card-img' src={props.img} alt=''/><span className='card-name'>{props.name}</span>{props.cardIcons}</a>
+    <a target="_blank" href={props.url} className={`card ${props.pos}`}><img className='card-img' src={props.img} alt=''/><span className='card-name'>{props.name}</span>{props.cardIcons}</a>
   )
 }
 
