@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.5a1efa3a.css",
+    "main.js": "/portfolio/static/js/main.a731abd7.js",
+    "static/media/madrid.jpg": "/portfolio/static/media/madrid.a09335cfc3d207379521.jpg",
+    "static/media/ibiza.jpg": "/portfolio/static/media/ibiza.336ee11e366d0a9d8098.jpg",
+    "static/media/1674976757-download-1.jpg": "/portfolio/static/media/1674976757-download-1.a5d67666758992a03e78.jpg",
+    "static/media/1674976855-download-3.jpg": "/portfolio/static/media/1674976855-download-3.5f4629ad6c956e84bcca.jpg",
+    "static/media/1679544184-download.jpg": "/portfolio/static/media/1679544184-download.cdefa783fd76e60eb375.jpg",
+    "static/media/1674977916-download-18.jpg": "/portfolio/static/media/1674977916-download-18.bed57c213d056c638e3c.jpg",
+    "static/media/react.svg": "/portfolio/static/media/react.e2bba87ca5cb96bfdd1744a4ffcd09b9.svg",
+    "static/media/github.svg": "/portfolio/static/media/github.42674b68e99dc900de573cca7a4985bf.svg",
+    "static/media/linkedin.svg": "/portfolio/static/media/linkedin.22d18d77cccd5fb7118d43e26c00e694.svg",
+    "static/media/js.svg": "/portfolio/static/media/js.6697decee7b1c7c726e2252dd04aa2a0.svg",
+    "static/media/copy.svg": "/portfolio/static/media/copy.12c6e2f364b6fc6d122a12d7fc10ebfe.svg",
+    "static/media/mail.svg": "/portfolio/static/media/mail.e488e568c835f5e37d52408a72240fd9.svg",
+    "static/media/arrow-down-svgrepo-com.svg": "/portfolio/static/media/arrow-down-svgrepo-com.a16a98d9b51b1940bc4c4f15b2d47d00.svg",
+    "index.html": "/portfolio/index.html",
+    "static/media/cv.svg": "/portfolio/static/media/cv.a776d3691f92763774ecca5b26c5d086.svg",
+    "static/media/x-lg.svg": "/portfolio/static/media/x-lg.c0a53d8c5fecbac8c95db4e963c1b9be.svg",
+    "static/media/css.svg": "/portfolio/static/media/css.c6a233917b6a7785b95b24c89c503af3.svg",
+    "static/media/html.svg": "/portfolio/static/media/html.c8addac8cf9571ec09fa2213949f752a.svg",
+    "static/media/cv.pdf": "/portfolio/static/media/cv.31d6cfe0d16ae931b73c.pdf",
+    "main.5a1efa3a.css.map": "/portfolio/static/css/main.5a1efa3a.css.map",
+    "main.a731abd7.js.map": "/portfolio/static/js/main.a731abd7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5a1efa3a.css",
+    "static/js/main.a731abd7.js"
+  ]
+}
